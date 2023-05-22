@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "html-pdf": "^3.0.1",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "pdfmake": "^0.2.7",
+    "puppeteer": "^20.3.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "pdf-generator",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
