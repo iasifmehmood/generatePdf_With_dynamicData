@@ -13,10 +13,10 @@ app.use(cors());
 
 app.use('/api', userRoutes);
 
-// handling all unhandled routes
-app.all('*', (req, _, next) => {
-  next(new AppError(404, `Can't find ${req.originalUrl} on the server`));
-});
+// // handling all unhandled routes
+// app.all('*', (req, _, next) => {
+//   next(new AppError(404, `Can't find ${req.originalUrl} on the server`));
+// });
 
 const port = process.env.port || 5000;
 app.listen(port, () => {
